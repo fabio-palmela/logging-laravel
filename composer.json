@@ -1,0 +1,13 @@
+{
+    "name": "credicom/log",
+    "description": "Reponsável por padronizar o log corporativo.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Credicom\\Log\\": "src/"
+        }
+    },
+    "require": {},
+    "minimum-stability": "stable"
+}
