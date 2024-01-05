@@ -3,7 +3,7 @@ namespace Credicom\Log\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
-class LaravelServiceProvider extends ServiceProvider
+class LoggingServiceProvider extends ServiceProvider
 {
     /**
      * {@inheritdoc}
