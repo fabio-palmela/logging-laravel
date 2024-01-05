@@ -60,7 +60,7 @@ return [
         
         'pattern' => [
             'driver' => 'custom',
-            'via' => App\Logging\JsonFormatterMonolog::class,
+            'via' => \Credicom\Log\Logging\JsonFormatterMonolog::class,
             'path' => storage_path('logs/laravel.log'),
             'level' => env('LOG_LEVEL', 'debug'),
             'formatter_with' => [
